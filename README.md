@@ -2,7 +2,7 @@
 
 **Flag chip production runs that are likely to fail the line test — before they reach it — and show engineers which of 590 sensors matter.**
 
-**▶ Live app:** [LINK — add after deploying]  ·  **Notebook:** [`SECOM_Fail_Detection.ipynb`](SECOM_Fail_Detection.ipynb)
+**▶ Live app:** [secom-fail-detector.streamlit.app](https://secom-fail-detector.streamlit.app) ·  **Notebook:** [`SECOM_Fail_Detection.ipynb`](SECOM_Fail_Detection.ipynb)
 
 ![App screenshot](assets/app_screenshot.png)
 
@@ -61,7 +61,7 @@ Feature selection matched or beat PCA for every model and keeps real, explainabl
 
 ## Run it locally
 ```bash
-git clone https://github.com/<your-username>/secom-fail-detection.git
+git clone https://github.com/Nada-kh-code/secom-fail-detection.git
 cd secom-fail-detection
 python -m venv .venv
 .venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
