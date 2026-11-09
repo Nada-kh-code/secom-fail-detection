@@ -6,6 +6,8 @@
 
 ![App screenshot](assets/app_screenshot.png)
 
+   *Demo with the bundled sample file: 25 held-out test runs, 10 of them real fails. The sample is enriched for the demo — the real fail rate is about 7%, so in production most flagged runs are false alarms (precision 12% on the full test set).*
+
 ---
 
 ## The problem
